@@ -1,0 +1,374 @@
+/* quanda tela for maior a 600px */
+@media screen and (min-width: 600px) {
+
+}
+
+
+@media screen and (max-width:  599px){
+
+
+  .container{
+
+    margin-top: 65%;
+
+  }
+
+
+}
+
+@media screen and (min-width:  600px){
+
+
+  .container{
+
+    margin-top: 40%;
+
+  }
+
+
+}
+
+@media screen and (min-width:  768px){
+
+
+  .container{
+
+     margin-top: 20%;
+
+
+  }
+
+
+  header{
+
+    background-color: #A9A9A9;
+    flex-direction: row;
+    position: relative;
+    height: 100px;
+
+  }
+
+  .menu{
+
+   
+   overflow: hidden;
+   background-color: #333;
+   position: fixed;
+   top: 0;
+   width: 100%;
+
+  }
+
+  .menu a{
+
+   float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  }
+
+  .menu ul li {
+
+   display: inline;
+   margin-left: 10px;
+  }
+
+  .menu ul li a{
+
+   padding: 10px 10px;
+   display: inline-block;
+
+
+  }
+
+
+}
+
+
+
+
+
+body{
+      background-color: #A9A9A9;
+      font-family: 'Yomogi', cursive;
+    }
+    
+    h1{
+    
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #006400;
+    line-height: 2;
+    
+
+    }
+
+    p{
+ 
+    font-size: 37px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    }
+
+    
+
+    .menu{
+
+     text-align: center;
+
+    }
+
+    
+
+    
+     
+
+
+    }
+
+
+    .letra{
+
+      position: absolute;
+      font-size: 27px;
+      top: 70px;
+      right: 70px;
+    }
+
+
+    .fixo{
+
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: 1030;
+
+    }
+
+
+
+    .imgtexto{
+
+     border: 5px dashed #000000;
+     width: 100%;
+
+    }
+
+    
+
+     .listatexto{
+
+
+      text-decoration: underline;
+      color: #0000CD;
+      font-weight: bolder;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      font-size: 27px;
+
+     }
+
+
+     .ajustes{
+
+      line-height: 1;
+      text-align: center;
+
+
+
+     }
+
+     .ajustes li: hover{
+
+
+      background-color: #808080;
+
+
+     }
+
+     ul{
+
+     
+
+
+     }
+
+
+
+
+    .container{
+
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  
+    position: relative;
+
+
+    }
+
+
+    header{
+      background-color: #000000;
+      padding: 3%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5em;
+      line-height: 1.5;
+
+
+
+    }
+
+    .titulo{
+     
+    text-align: center;
+    font-size: 57px;
+    font-weight: bolder;
+    color: #FFFAFA;
+
+    }
+
+
+    a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+    table{
+
+      border-collapse: collapse;
+      width: 80%;
+      color: #000000;
+      font-size: 1.2;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    th, td{
+          border: 5px solid #000000;
+          padding: 1%;
+          font-size: 20px;
+          font-weight: bolder;
+          text-align: center;
+
+    }
+
+
+    html{
+
+     scroll-behavior: smooth;
+
+    }
+
+    .fundo{
+
+      background: #87CEFA;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+      border-radius: 30px;
+    }
+
+    .distancia{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+
+    input[type=text], select, textarea {
+
+      width: 80%;
+      padding: 12px 20px;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      box-sizing: border-box;
+     
+}
+
+    }
+
+  input[type=submit] {
+   width: 100%;
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+
+   }
+
+   .musica{
+
+     margin-top: 2%;
+      margin-bottom: 2%;
+
+   }
+
+   .genero{
+    margin-top: 2%;
+      margin-bottom: 2%;
+   }
+
+   .escola{
+     margin-top: 2%;
+      margin-bottom: 2%;
+   }
+
+
+    .assunto{
+       margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    
+
+    fieldset{
+      width: 96%;
+      border: 1px solid #000000;
+      padding: 2%;
+      border-radius: 30px; 
+    }
+
+    .duvida{
+margin-top: 2%;
+      margin-bottom: 2%;
+      
+    }
